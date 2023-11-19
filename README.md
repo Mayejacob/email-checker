@@ -7,7 +7,7 @@ This simple Go application checks the DNS records of a given domain, including M
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/domain-checker.git
+    git clone https://github.com/Mayejacob/email-checker.git
     ```
 
 2. Navigate to the project directory:
@@ -41,9 +41,9 @@ domain, hasMX, hasSPF, spfRecord, hasDMARC, dmarcRecord
 example.com, true, true, v=spf1 ... , true, v=DMARC1 ...
 ```
 
-    - domain: The domain name being checked.
-    - hasMX: Whether the domain has Mail Exchange records.
-    - hasSPF: Whether the domain has Sender Policy Framework records.
-    - spfRecord: The SPF record of the domain (if present).
-    - hasDMARC: Whether the domain has DMARC records.
-    - dmarcRecord: The DMARC record of the domain (if present).
+- domain: The domain name being checked.
+- hasMX: Whether the domain has Mail Exchange records.
+- hasSPF: Whether the domain has Sender Policy Framework records.
+- spfRecord: The SPF record of the domain (if present).
+- hasDMARC: Whether the domain has DMARC records.
+- dmarcRecord: The DMARC record of the domain (if present).
